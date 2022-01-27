@@ -1,4 +1,15 @@
-body{
-    width: 1440px;
-    height: 1912px;
+body {
+  width: 1440px;
+  height: 1912px;
 }
+
+.right-header-body {
+  width: 450px;
+  height: auto;
+}
+
+.album-cover {
+  width: 150px;
+  height: auto;
+}
+
