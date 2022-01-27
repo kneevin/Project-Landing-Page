@@ -8,29 +8,34 @@
 </head>
 
 <body>
+    <!-- Note, the heading and the flex-container are different sizes,
+    I want the actual text to be around 70% of the actual screen, centered.
+    This will be a reoccurence throughout the web page, with varying percentages
+    of width of the actual screen. -->
     <div class='heading'>
-        <div class='header'>
-            <div class='left-head'>
-                <p>Kneevin's Music Taste</p>
-            </div>
-            <div class='right-head'>
-                <ul>
-                    <li class='header-link'><a
+        <div class='heading-flex-container'>
+            <div class='header'>
+                <div class='left-head'>
+                    <span class='title-highlight'>Kneevin's Music Taste.</span>
+                </div>
+                <ul class='right-head'>
+                    <li><a class='header-link'
                             href='https://open.spotify.com/user/acingace?si=aaaa09a095e64f52'>Spotify</a></li>
-                    <li class='header-link'><a href='https://www.last.fm/user/kneevin'>Last.fm</a></li>
-                    <li class='header-link'><a href='https://www.instagram.com/kneevin/'>Instagram</a></li>
+                    <li><a class='header-link' href='https://www.last.fm/user/kneevin'>Last.fm</a></li>
+                    <li><a class='header-link' href='https://www.instagram.com/kneevin/'>Instagram</a></li>
                 </ul>
             </div>
-        </div>
-        <div class='header-body'>
-            <div class='left-header-body'>
-                <div>What do I listen to?</div>
-                <div>I love listening to all kinds of music - ranging from hip-hop to video game music. This webpage
-                    will showcase the many things I listen to!</div>
-                <button>Here's a playlist!</button>
+            <div class='header-body'>
+                <div class='left-header-body'>
+                    <div class='header-body-title'>What kind of music do I listen to?</div>
+                    <div class='header-body-text'>I love listening to all kinds of music - especially with my friends -
+                        ranging from hip-hop to video game music. This webpage will showcase the many things I listen to! </div>
+                    <button class='header-button'>Here's a playlist!</button>
+                </div>
+                <img class='right-header-body' src='/images/fmc.png' alt='Some of my recent playlists'>
             </div>
-            <img class='right-header-body' src='/images/fmc.png' alt='Some of my recent playlists'>
         </div>
+
     </div>
 
     <div class='content'>

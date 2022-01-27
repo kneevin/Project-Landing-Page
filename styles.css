@@ -1,10 +1,18 @@
+/* Dimensions of the landing page */
 body {
-  width: 1440px;
   height: 1912px;
+  width: auto;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
 }
 
+/* Image adjustments */
 .right-header-body {
-  width: 450px;
+  width: 300px;
   height: auto;
 }
 
@@ -13,3 +21,90 @@ body {
   height: auto;
 }
 
+/* Header CSS Properties */
+.heading {
+  width: 100%;
+  background-color: #1b1a17;
+  color: #e23e57;
+}
+
+.header-link {
+  text-decoration: none;
+  color: #f0e3ca;
+  font-weight: 100;
+  font-size: 24px;
+}
+
+li {
+  list-style-type: none;
+}
+
+.heading-flex-container {
+  flex: 1;
+  margin: 0 auto;
+  width: 70%;
+  display: flex;
+  font-family: "Century Gothic";
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.header {
+  box-sizing: border-box;
+  width: 100%;
+  padding: 15px 0px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 40px;
+}
+
+.left-head {
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.right-head {
+  padding: 0;
+  display: flex;
+  gap: 20px;
+}
+
+.header-body {
+  display: flex;
+  padding: 10px 0px;
+  justify-content: space-evenly;
+  align-items: center;
+  gap: 25px;
+}
+
+.left-header-body {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.header-body-title {
+  color: #ffe6bc;
+  font-size: 55px;
+  font-weight: bold;
+}
+
+.header-body-text {
+  color: #8e806a;
+  font-size: 15px;
+}
+
+.header-button {
+  height: max-content;
+  width: max-content;
+  background-color: #C3B091;
+  border: none;
+  border-radius: 12px;
+  color: #21094E;
+  font-size: 24px;
+  font-family: 'Rockwell';
+  padding: 15px 32px;
+  text-align: center;
+}
