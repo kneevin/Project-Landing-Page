@@ -6,7 +6,7 @@ body {
   padding: 0;
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  /* justify-content: space-between; */
   align-items: center;
 }
 
@@ -27,6 +27,7 @@ body {
   width: 100%;
   background-color: #1b1a17;
   color: #e23e57;
+  padding: 25px 0px;
 }
 
 .header-link {
@@ -40,17 +41,6 @@ li {
   list-style-type: none;
 }
 
-.heading-flex-container {
-  flex: 1;
-  margin: 0 auto;
-  width: 70%;
-  display: flex;
-  font-family: "Century Gothic";
-  flex-direction: column;
-  justify-content: space-evenly;
-  align-items: center;
-}
-
 .header {
   box-sizing: border-box;
   width: 100%;
@@ -59,6 +49,17 @@ li {
   justify-content: space-between;
   align-items: center;
   margin-bottom: 40px;
+}
+
+.heading-flex-container {
+  flex: 1;
+  margin: 0 auto;
+  width: 50%;
+  display: flex;
+  font-family: "Century Gothic";
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
 }
 
 .left-head {
@@ -101,14 +102,62 @@ li {
 .header-button {
   height: max-content;
   width: max-content;
-  background-color: #C3B091;
+  background-color: #c3b091;
   border: none;
   border-radius: 12px;
-  color: #21094E;
+  color: #21094e;
   font-size: 24px;
-  font-family: 'Rockwell';
+  font-family: "Rockwell";
   padding: 10px 20px;
   text-align: center;
 }
 
 /* Album cover Stylings */
+.album-section {
+  width: 100%;
+  background-color: #4FBDBA;
+}
+
+.album-container {
+  width: 70%;
+  padding: 20px 0px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.album-header {
+  font-family: "Trebuchet MS";
+  color: #072227;
+  padding: 20px 0px;
+  font-size: 55px;
+}
+
+.album {
+  display: flex;
+  flex-flow: column nowrap;
+  width: 150px;
+  justify-content: center;
+  align-items: center;
+}
+
+.album-list {
+  display: flex;
+  align-items: flex-start;
+  text-align: center;
+  gap: 25px;
+}
+
+.album-subtext {
+  padding: 20px 0px;
+  margin: auto;
+  text-align: center;
+  font-family: 'Georgia';
+  color: #072227;
+}
+
+.text-title{
+  font-weight: bold;
+}
