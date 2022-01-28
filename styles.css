@@ -106,7 +106,6 @@ li {
   background-color: #c3b091;
   border: none;
   border-radius: 12px;
-  color: #21094e;
   font-size: 24px;
   font-family: "Rockwell";
   padding: 10px 20px;
@@ -117,7 +116,7 @@ li {
 .album-section {
   width: 100%;
   flex: 1;
-  background-color: #fff3cd;
+  background-color: #ffe6bc;
   display: flex;
   justify-content: center;
 }
@@ -169,7 +168,7 @@ li {
 /* Quote Section Styling */
 .lyric-section {
   width: 100%;
-  background-color: #e6e6e6;
+  background-color: #f0f0f0;
   flex: 1;
   display: flex;
   justify-content: center;
@@ -195,15 +194,49 @@ li {
 
 /* Button Section Styling */
 .button-section {
-  width: auto;
+  width: 100%;
   flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.button-container {
+  font-family: "Century Gothic";
+  background-color: #76ead7;
+  border-radius: 10px;
+  width: 40%;
+  height: 30%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.button-header {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.big-button {
+  height: max-content;
+  width: max-content;
+  background-color: #8bbabb;
+  border: 2 px solid #1b1a17;
+  border-radius: 12px;
+  font-size: 24px;
+  font-family: "Rockwell";
+  padding: 10px 20px;
+  text-align: center;
 }
 
 /* Footer Section Styling */
 
 .footer {
-  flex: 0.1;
+  background-color: #686d76;
+  width: 100%;
+  flex: 0.2;
   display: flex;
   justify-content: center;
   align-items: center;
+  font-family: "Rockwell";
 }
