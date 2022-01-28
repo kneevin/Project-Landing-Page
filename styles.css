@@ -25,8 +25,9 @@ body {
 /* Header CSS Properties */
 .heading {
   width: 100%;
+  flex: 1;
   background-color: #1b1a17;
-  color: #e23e57;
+  color: #ede7cf;
   padding: 25px 0px;
 }
 
@@ -115,7 +116,10 @@ li {
 /* Album cover Stylings */
 .album-section {
   width: 100%;
-  background-color: #4FBDBA;
+  flex: 1;
+  background-color: #fff3cd;
+  display: flex;
+  justify-content: center;
 }
 
 .album-container {
@@ -154,10 +158,52 @@ li {
   padding: 20px 0px;
   margin: auto;
   text-align: center;
-  font-family: 'Georgia';
+  font-family: "Georgia";
   color: #072227;
 }
 
-.text-title{
+.text-title {
   font-weight: bold;
+}
+
+/* Quote Section Styling */
+.lyric-section {
+  width: 100%;
+  background-color: #e6e6e6;
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.lyric-container {
+  width: 60%;
+  color: #532e1c;
+  display: flex;
+  flex-direction: column;
+}
+
+.lyric {
+  font-size: 40px;
+  font-style: italic;
+}
+
+.artist {
+  text-align: right;
+  font-size: 20px;
+}
+
+/* Button Section Styling */
+.button-section {
+  width: auto;
+  flex: 1;
+}
+
+/* Footer Section Styling */
+
+.footer {
+  flex: 0.1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
